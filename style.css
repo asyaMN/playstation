@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     
+    
 }
 img{
     height: 30px;
@@ -55,4 +56,20 @@ button{
        -moz-box-sizing: border-box;
             box-sizing: border-box;
             margin-left: 220px;
+  }
+.burger{
+    display: none;
+}
+
+  .burger div {
+width: 25px;
+height: 3px;
+background-color: blue;
+margin: 5px;
+  }
+
+  @media screen and (max-width:768px) {
+      body{
+          display: none;
+      }
   }
